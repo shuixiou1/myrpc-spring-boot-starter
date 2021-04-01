@@ -9,6 +9,7 @@ import io.netty.handler.codec.ByteToMessageDecoder;
 
 /**
  * 长度解码处理器 : 只负责长度处理， 数据流还是byteBuf
+ * 主分支
  */
 public class LengthDecode extends ByteToMessageDecoder {
 
