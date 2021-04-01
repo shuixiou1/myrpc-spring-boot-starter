@@ -15,7 +15,7 @@ public class LengthDecode extends ByteToMessageDecoder {
 	@Override
 	protected void decode(ChannelHandlerContext ctx, ByteBuf in, List<Object> out) throws Exception {
 		int readableBytes = in.readableBytes();
-		if (readableBytes < 4) {
+		if (readableBytes < 4) {  
 			return;
 		}
 		in.markReaderIndex();
