@@ -1,0 +1,2 @@
+com.wj.common.protocol.JavaMessageProtocol
+com.wj.common.protocol.ProtoBufProtocol
